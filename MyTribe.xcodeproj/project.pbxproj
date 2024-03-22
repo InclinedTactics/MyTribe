@@ -14,6 +14,9 @@
 		12348D302BACEA35003903E6 /* MyTribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D2F2BACEA35003903E6 /* MyTribeTests.swift */; };
 		12348D3A2BACEA35003903E6 /* MyTribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D392BACEA35003903E6 /* MyTribeUITests.swift */; };
 		12348D3C2BACEA35003903E6 /* MyTribeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D3B2BACEA35003903E6 /* MyTribeUITestsLaunchTests.swift */; };
+		12348D4E2BACEAD0003903E6 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D4D2BACEAD0003903E6 /* Feed.swift */; };
+		12348D502BACFCC6003903E6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D4F2BACFCC6003903E6 /* FeedCell.swift */; };
+		12348D522BAD54F4003903E6 /* ThreeDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D512BAD54F4003903E6 /* ThreeDots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		12348D352BACEA35003903E6 /* MyTribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12348D392BACEA35003903E6 /* MyTribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTribeUITests.swift; sourceTree = "<group>"; };
 		12348D3B2BACEA35003903E6 /* MyTribeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTribeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12348D4D2BACEAD0003903E6 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		12348D4F2BACFCC6003903E6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		12348D512BAD54F4003903E6 /* ThreeDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		12348D112BACEA34003903E6 = {
 			isa = PBXGroup;
 			children = (
+				12348D1D2BACEA34003903E6 /* MyTribeApp.swift */,
 				12348D1C2BACEA34003903E6 /* MyTribe */,
 				12348D2E2BACEA35003903E6 /* MyTribeTests */,
 				12348D382BACEA35003903E6 /* MyTribeUITests */,
@@ -95,8 +102,9 @@
 		12348D1C2BACEA34003903E6 /* MyTribe */ = {
 			isa = PBXGroup;
 			children = (
-				12348D1D2BACEA34003903E6 /* MyTribeApp.swift */,
-				12348D1F2BACEA34003903E6 /* ContentView.swift */,
+				12348D4A2BACEA66003903E6 /* HelperFiles */,
+				12348D492BACEA5F003903E6 /* Models */,
+				12348D482BACEA57003903E6 /* Views */,
 				12348D212BACEA35003903E6 /* Assets.xcassets */,
 				12348D232BACEA35003903E6 /* MyTribe.entitlements */,
 				12348D242BACEA35003903E6 /* Preview Content */,
@@ -127,6 +135,31 @@
 				12348D3B2BACEA35003903E6 /* MyTribeUITestsLaunchTests.swift */,
 			);
 			path = MyTribeUITests;
+			sourceTree = "<group>";
+		};
+		12348D482BACEA57003903E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12348D1F2BACEA34003903E6 /* ContentView.swift */,
+				12348D4D2BACEAD0003903E6 /* Feed.swift */,
+				12348D4F2BACFCC6003903E6 /* FeedCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12348D492BACEA5F003903E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12348D4A2BACEA66003903E6 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12348D512BAD54F4003903E6 /* ThreeDots.swift */,
+			);
+			path = HelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12348D202BACEA34003903E6 /* ContentView.swift in Sources */,
+				12348D522BAD54F4003903E6 /* ThreeDots.swift in Sources */,
+				12348D502BACFCC6003903E6 /* FeedCell.swift in Sources */,
+				12348D4E2BACEAD0003903E6 /* Feed.swift in Sources */,
 				12348D1E2BACEA34003903E6 /* MyTribeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
