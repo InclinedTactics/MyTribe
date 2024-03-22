@@ -43,7 +43,7 @@ struct Feed: View {
                                             .padding(.leading)
                                         Spacer()
                                     }
-                                    .offset(x: -80, y: -65)
+                                    .offset(x: -68, y: -65)
                                     .padding(.horizontal)
                                     Spacer()
                                

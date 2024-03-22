@@ -17,6 +17,8 @@
 		12348D4E2BACEAD0003903E6 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D4D2BACEAD0003903E6 /* Feed.swift */; };
 		12348D502BACFCC6003903E6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D4F2BACFCC6003903E6 /* FeedCell.swift */; };
 		12348D522BAD54F4003903E6 /* ThreeDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D512BAD54F4003903E6 /* ThreeDots.swift */; };
+		12348D542BADE429003903E6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D532BADE429003903E6 /* Profile.swift */; };
+		12348D562BADEEC5003903E6 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D552BADEEC5003903E6 /* CollectionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		12348D4D2BACEAD0003903E6 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		12348D4F2BACFCC6003903E6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		12348D512BAD54F4003903E6 /* ThreeDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDots.swift; sourceTree = "<group>"; };
+		12348D532BADE429003903E6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		12348D552BADEEC5003903E6 /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				12348D1F2BACEA34003903E6 /* ContentView.swift */,
 				12348D4D2BACEAD0003903E6 /* Feed.swift */,
 				12348D4F2BACFCC6003903E6 /* FeedCell.swift */,
+				12348D532BADE429003903E6 /* Profile.swift */,
+				12348D552BADEEC5003903E6 /* CollectionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12348D202BACEA34003903E6 /* ContentView.swift in Sources */,
+				12348D562BADEEC5003903E6 /* CollectionsView.swift in Sources */,
+				12348D542BADE429003903E6 /* Profile.swift in Sources */,
 				12348D522BAD54F4003903E6 /* ThreeDots.swift in Sources */,
 				12348D502BACFCC6003903E6 /* FeedCell.swift in Sources */,
 				12348D4E2BACEAD0003903E6 /* Feed.swift in Sources */,
