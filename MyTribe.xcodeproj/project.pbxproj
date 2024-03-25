@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12138B0C2BB12A7F00DF4BC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12138B0B2BB12A7F00DF4BC4 /* Extensions.swift */; };
+		12138B102BB1B8BD00DF4BC4 /* TimeZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12138B0F2BB1B8BD00DF4BC4 /* TimeZoneView.swift */; };
+		12138B122BB1BDCC00DF4BC4 /* TimeZoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12138B112BB1BDCC00DF4BC4 /* TimeZoneRow.swift */; };
 		12348D1E2BACEA34003903E6 /* MyTribeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D1D2BACEA34003903E6 /* MyTribeApp.swift */; };
 		12348D202BACEA34003903E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12348D1F2BACEA34003903E6 /* ContentView.swift */; };
 		12348D222BACEA35003903E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12348D212BACEA35003903E6 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		12138B0B2BB12A7F00DF4BC4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		12138B0F2BB1B8BD00DF4BC4 /* TimeZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneView.swift; sourceTree = "<group>"; };
+		12138B112BB1BDCC00DF4BC4 /* TimeZoneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneRow.swift; sourceTree = "<group>"; };
 		12348D1A2BACEA34003903E6 /* MyTribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12348D1D2BACEA34003903E6 /* MyTribeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTribeApp.swift; sourceTree = "<group>"; };
 		12348D1F2BACEA34003903E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 				12348D552BADEEC5003903E6 /* CollectionsView.swift */,
 				12348D602BAE1A2C003903E6 /* Settings.swift */,
 				12348D682BAE63F6003903E6 /* EditProfile.swift */,
+				12138B0F2BB1B8BD00DF4BC4 /* TimeZoneView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				12348D622BAE1A81003903E6 /* PageHeaderView.swift */,
 				12348D642BAE212C003903E6 /* HeroSectionHeader.swift */,
 				12348D662BAE3DA5003903E6 /* SettingsRowView.swift */,
+				12138B112BB1BDCC00DF4BC4 /* TimeZoneRow.swift */,
 				12138B0B2BB12A7F00DF4BC4 /* Extensions.swift */,
 			);
 			path = HelperFiles;
@@ -320,7 +326,9 @@
 				12348D202BACEA34003903E6 /* ContentView.swift in Sources */,
 				12348D562BADEEC5003903E6 /* CollectionsView.swift in Sources */,
 				12348D612BAE1A2C003903E6 /* Settings.swift in Sources */,
+				12138B122BB1BDCC00DF4BC4 /* TimeZoneRow.swift in Sources */,
 				12348D542BADE429003903E6 /* Profile.swift in Sources */,
+				12138B102BB1B8BD00DF4BC4 /* TimeZoneView.swift in Sources */,
 				12348D522BAD54F4003903E6 /* ThreeDots.swift in Sources */,
 				12348D502BACFCC6003903E6 /* FeedCell.swift in Sources */,
 				12348D672BAE3DA5003903E6 /* SettingsRowView.swift in Sources */,
